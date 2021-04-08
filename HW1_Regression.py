@@ -14,7 +14,6 @@ import torch
 # 任务：由前9个小时的18个特征，预测第10个小时的PM2.5（PM2.5是第10个特征）
 # 训练数据：train.csv是12个月，每个月取20天，每天24小时的数据，每个小时又18个特征  行: 12*20*18 列：24
 # 测试数据：有18个特征的前9个小时的数据
-# 参考链接：https://colab.research.google.com/drive/131sSqmrmWXfjFZ3jWSELl8cm0Ox5ah3C#scrollTo=dcOrC4Fi-n3i
 
 
 def load_data():
